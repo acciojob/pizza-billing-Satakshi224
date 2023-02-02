@@ -70,13 +70,13 @@ public class Pizza {
             this.bill+="Extra Cheese Added: "+ this.cheese + "\n";
         }
         if(ExtraToppingsAdded){
-            this.bill+="Extra Toppings Added: "+this.toppings+"\n";
+            this.bill+="Extra Toppings Added: "+ this.toppings +"\n";
         }
         if(isTakeAwayAdded){
-            this.bill+="Paperbag Added: "+"20"+"\n";
+            this.bill+="Paperbag Added: "+"20"+ "\n";
 
         }
-        this.bill+="Total Price: "+this.price+"\n";
+        this.bill+="Total Price: "+ this.price + "\n";
         isBillGenerated=true;
         return this.bill;
     }
